@@ -372,6 +372,9 @@ body {
   .list__item {
     flex: 0 0 50%;
     margin-bottom: .7rem; }
+    @media only screen and (max-width: 600px) {
+      .list__item {
+        flex: 0 0 100%; } }
   .list__item::before {
     content: "";
     display: inline-block;
